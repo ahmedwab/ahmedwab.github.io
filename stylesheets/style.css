@@ -16,10 +16,8 @@ body {
 
 }
 .topnav img{
-    height:50px;
-    width:50px;
-    margin-top:5px;
-    margin-right:10px;
+    height:35px;
+    width:35px;
     cursor:pointer;
   
   }
@@ -362,4 +360,5 @@ footer{
 
 
   }
+
 
