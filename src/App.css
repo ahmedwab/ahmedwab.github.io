@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+body {
+  background-color: #060e1a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* align div in center */
+.navigation{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about {
+  margin: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about_container, .project_container {
+  display: flex;
+}
+
+.about_profile, .project_profile {
   display: flex;
   flex-direction: column;
+  height: 500px;
   align-items: center;
+  min-width: 50%;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about_description, .project_description {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.about_description h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.experience {
+  background-color: white;
+}
+
+.projects {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.contact-form {
+    width: 800px;
   }
-  to {
-    transform: rotate(360deg);
+
+
+.socials {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+  .about_container {
+    flex-direction: column;
+  }
+  .about_profile {
+    min-width: 100%;
+  }
+  .contact-form {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .project_container {
+    flex-direction: column;
   }
 }
