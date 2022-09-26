@@ -33,6 +33,7 @@ const Header = () => {
         style={{
           paddingBottom: "10px",
           width: "fit-content",
+          overflow: "scroll",
         }}
       >
         {Tabs.map((tab, index) => (

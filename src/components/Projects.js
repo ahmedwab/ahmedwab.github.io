@@ -26,7 +26,7 @@ const Experience = () => {
       </Typography>
       <div className="project_container">
         <div className="project_profile">
-          <img src="twizzle.png" alt="twizzle" width={500} />
+          <img src="twizzle.png" alt="twizzle" width={300} />
         </div>
         <div className="project_description">
           <Button
@@ -80,12 +80,12 @@ const Experience = () => {
           </Typography>
         </div>
         <div className="project_profile">
-          <img src="CV.png" alt="CANVAXSEARXH" width={500} />
+          <img src="CV.png" alt="CANVAXSEARXH" width={300} />
         </div>
       </div>
       <div className="project_container">
         <div className="project_profile">
-          <img src="tello.jpg" alt="Tello Drone" width={400} />
+          <img src="tello.jpg" alt="Tello Drone" width={300} />
         </div>
         <div className="project_description">
           <Button

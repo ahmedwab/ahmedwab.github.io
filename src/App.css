@@ -1,5 +1,6 @@
 body {
   background-color: #060e1a;
+  overflow: scroll;
 }
 
 /* align div in center */
@@ -48,6 +49,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .contact {
@@ -73,6 +75,11 @@ body {
   padding: 50px 0;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #060e1a;
+}
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
@@ -83,7 +90,7 @@ body {
     min-width: 100%;
   }
   .contact-form {
-    width: 400px;
+    width: 300px;
   }
 }
 

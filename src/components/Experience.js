@@ -16,7 +16,6 @@ const Experience = () => {
       <Typography variant={1} 
       style={{
         color: "#060e1a",
-        fontSize: "5em",
         fontWeight: 600,
         padding: "20px",
       }}
